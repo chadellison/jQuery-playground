@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 	// finding something within an element
 	$("#find").click(function(){
-		var text = $("#find-target").find('#second').text()
+		var text = $("#find-target").find('#third').text()
 		alert(text)
 	});
 
@@ -63,8 +63,8 @@ $(document).ready(function(){
 	// animating an element
 	$("#animate").click(function(){
 		$("#animate-target").animate({
-		    opacity: 0.25,
-		    left: "+=500",
+		    opacity: 0.05,
+		    left: "+=1200",
 		  }, 3000);
 	})
 
